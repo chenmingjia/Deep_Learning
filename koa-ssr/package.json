@@ -1,0 +1,48 @@
+{
+  "name": "koa-ssr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.6.1",
+    "babel-polyfill": "^6.26.0",
+    "css-loader": "^3.2.0",
+    "is-type-of": "^1.2.1",
+    "js-beautify": "^1.10.2",
+    "jsdom": "^9.8.3",
+    "koa": "^2.8.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "less-loader": "^5.0.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "null-loader": "^3.0.0",
+    "postcss-flexbugs-fixes": "^4.1.0",
+    "postcss-loader": "^3.0.0",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "style-loader": "^1.0.0",
+    "through": "^2.3.8"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.6",
+    "babel-preset-beidou-client": "^2.1.0",
+    "babel-preset-beidou-server": "^2.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "clean-webpack-plugin": "^3.0.0",
+    "koa-webpack-dev-middleware": "^2.0.2",
+    "koa-webpack-hot-middleware": "^1.0.3",
+    "webpack": "^4.40.2",
+    "webpack-cli": "^3.3.8"
+  }
+}

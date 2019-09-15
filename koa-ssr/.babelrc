@@ -1,0 +1,3 @@
+{ 
+    "presets": ["babel-preset-beidou-server", "babel-preset-beidou-client"]
+}

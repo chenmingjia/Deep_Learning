@@ -1,0 +1,1 @@
+{"version":3,"file":"admin.css","sources":["webpack:///Admin.css"],"sourcesContent":[".main {\r\n    color: red;\r\n    display: flex;\r\n    background-color: blue;\r\n}"],"mappings":"AAAA;AACA;AACA;AACA;AACA;","sourceRoot":""}
