@@ -1,7 +1,9 @@
-exports.config = function () {
+
+exports.default = function () {
 
     function e() {
-        this.per = .75, this.config = [];
+        this.per = .75;
+        this.config = [];
         this.mapConfig1 = {
             col: 8,
             row: 8,
@@ -11,7 +13,8 @@ exports.config = function () {
             spaceX: -2,
             spaceY: -6,
             per: 1
-        }, this.mapConfig2 = {
+        };
+        this.mapConfig2 = {
             col: 12,
             row: 11,
             types: 20,
@@ -20,7 +23,8 @@ exports.config = function () {
             spaceX: -12 * this.per,
             spaceY: -8 * this.per,
             per: this.per
-        }, this.mapConfigEndless = {
+        };
+        this.mapConfigEndless = {
             gridType: 2,
             col: 12,
             row: 11,
@@ -241,10 +245,11 @@ exports.config = function () {
         } ];
         for (var e = 0; e < this.config.length; e++) this.config[e].locked = !0, this.config[e].star = 0, 
         this.config[e].maxScore = 0, this.config[e].mapConfig = {}, 0 == e && (this.config[e].locked = !1);
+    }, e.prototype.update = function() {
+        // for (var e in r.default.passConfig) for (var t in this.config) this.config[t].pass == r.default.passConfig[e].pass && (this.config[t] = Object.assign({}, this.config[t], r.default.passConfig[e]));
     }, e;
-    // , e.prototype.update = function() {
-    //     for (var e in r.default.passConfig) for (var t in this.config) this.config[t].pass == r.default.passConfig[e].pass && (this.config[t] = Object.assign({}, this.config[t], r.default.passConfig[e]));
-    // }, e.prototype.transform = function(e) {
+
+    //  e.prototype.transform = function(e) {
     //     console.log(e.grid);
     //     for (var t = JSON.parse(e.grid), o = new Array(t[0].length), r = [], i = 0; i < t[0].length; i++) o[i] = new Array(t.length), 
     //     r = new Array(t.length + 2);
@@ -256,4 +261,6 @@ exports.config = function () {
     //     e.mapConfig.moveType = e.moveType, e.mapConfig.grid = o, e.mapConfig.gridType = e.gridType, 
     //     e.mapConfig;
     // }, e;
-}
+}()
+
+
